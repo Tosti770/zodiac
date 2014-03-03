@@ -1,0 +1,28 @@
+#!/usr/bin/python
+
+import sys
+sys.path[0:0] = [
+  '/home/ruben/zodiac/eggs/WebTest-2.0.10-py2.7.egg',
+  '/home/ruben/zodiac/eggs/WebOb-1.2.3-py2.7.egg',
+  '/home/ruben/zodiac/eggs/pytest-2.4.2-py2.7.egg',
+  '/home/ruben/zodiac/eggs/pytest_cov-1.6-py2.7.egg',
+  '/home/ruben/zodiac/eggs/cov_core-1.7-py2.7.egg',
+  '/home/ruben/zodiac/eggs/py-1.4.18-py2.7.egg',
+  '/home/ruben/zodiac/eggs/beautifulsoup4-4.3.2-py2.7.egg',
+  '/home/ruben/zodiac/eggs/waitress-0.8.7-py2.7.egg',
+  '/home/ruben/zodiac/eggs/six-1.4.1-py2.7.egg',
+  '/home/ruben/zodiac/eggs/coverage-3.7-py2.7.egg',
+  '/home/ruben/zodiac/eggs/setuptools-1.1.5-py2.7.egg',
+  '/home/ruben/zodiac/bin',
+  '/home/ruben/zodiac/parts/zodiac',
+  '/home/ruben/zodiac/parts/google_appengine',
+  '/home/ruben/zodiac/parts/google_appengine/lib/antlr3',
+  '/home/ruben/zodiac/parts/google_appengine/lib/django',
+  '/home/ruben/zodiac/parts/google_appengine/lib/fancy_urllib',
+  '/home/ruben/zodiac/parts/google_appengine/lib/yaml/lib',
+  ]
+
+import pytest
+
+if __name__ == '__main__':
+    sys.exit(pytest.main())
